@@ -1,0 +1,150 @@
+.heading{
+    margin:0.5rem;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.clock-app{
+    margin: 0.7rem;
+}
+.head{
+    height: 3rem;
+    width:80%;
+    display:flex;
+    flex-direction: row;
+    margin:auto;
+}
+.l1{
+    width:25%;
+    text-align: center;
+    height: 3rem;
+    background-color: aliceblue;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    z-index: 5;
+    border-bottom:2px  solid bisque;
+
+}
+.l1:hover{
+    border-radius: 0.3rem  0.3rem 0 0;
+    border-bottom:2px  solid rgb(255, 255, 255);
+    padding: 0.5px;
+}
+.area{
+    height:35rem;
+    width:79.5%;
+    margin: auto;
+    margin-top: 0rem;
+    z-index: 1;
+    border-radius: 0.1rem;
+}
+.unique{
+    background-color: white;
+    border-radius: 0.5rem 0.5rem 0 0;
+    border:2px  solid bisque;
+    border-bottom:2px  solid rgb(255, 255, 255);
+    padding-bottom: 2px;   
+}
+.digital-space{
+    border:2px  solid bisque;
+    border-top:2px  solid rgb(255, 255, 255);
+}
+.onclicked{
+    display:none;
+}
+.analog-space{
+    border:2px  solid bisque;
+    border-top:2px  solid rgb(255, 255, 255);
+}
+.stopwatch-space{
+    border:2px  solid bisque;
+    border-top:2px  solid rgb(255, 255, 255);
+}
+.alarm-space{
+    border:2px  solid bisque;
+    border-top:2px  solid rgb(255, 255, 255);
+}
+.container{
+    height: 25rem;
+    width:29rem;
+    margin: auto;
+    margin-top: 4rem;
+    border:rem solid black;
+    border-radius: 1rem;
+    box-shadow:0 0 0 1.5rem #333;
+    background-color: aliceblue;
+    outline-offset: -1rem;
+    font-family: Orbitron;
+}
+.time-box{
+    position: relative;
+    height: 7rem;
+    width: 25rem;
+    background-color: rgb(204, 216, 99);
+    border-radius: 0.1rem;
+    margin: auto;
+    top: 1rem;
+    box-shadow: inset 4px 4px  9px rgb(117, 117, 117);
+    border: 2px solid rgb(204, 216, 99);
+    text-align: center;
+    font-size: 2rem;
+}
+.date-box{
+    position: relative;
+    height: 6rem;
+    width: 11.5rem;
+    background-color: rgb(204, 216, 99);
+    border-radius: 0.1rem;
+    margin: auto;
+    margin-left: 2rem;
+    top: 1rem; 
+    box-shadow: inset 4px 4px  9px rgb(117, 117, 117);
+    border: 2px solid rgb(204, 216, 99);
+    text-align: center;
+    font-size: 1.2rem;
+}
+.day-box{
+    position: relative;
+    height: 6rem;
+    width: 11.5rem;
+    background-color: rgb(204, 216, 99);
+    border: 2px solid rgb(204, 216, 99);
+    border-radius: 0.1rem;
+    margin: auto;
+    top: 1rem; 
+    margin-left: 2rem;
+    box-shadow: inset 4px 4px  9px rgb(117, 117, 117);
+    text-align: center;
+    font-size: 1.2rem;
+}
+.bottom{
+    display: flex;
+}
+.text-time,.text-date,.text-day
+{
+    position: relative;
+    text-align: center;
+    top:2rem;
+    margin-left: 1rem;
+}
+.time,.date,.day{
+    margin-top: 2rem;
+}
+.day,.date{
+    font-size: 1.7rem;
+}
+.time{
+    font-size:2.6rem;
+}
+.brand{
+ text-align: right;
+ margin-right: 2rem;
+ margin-top: 2rem;
+}
+.shadow{
+    height: 26.5rem;
+    width: 31rem;
+    border-radius: 2rem;
+    margin: auto;
+    box-shadow: 9px 4px 19px 2px  rgb(75, 75, 75);
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Heroes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="heading"><h1 class="clock-app">Clock App</h1></div>
+    <div class="head">
+        <input type="button" class="digital l1 unique" value="Digital Clock" onclick="go()"></input>
+        <input type="button" class="analog l1 " value="Analog Clock" onclick="go()"></input>
+        <input type="button" class="stopwatch l1 " value="Stop Watch" onclick="go()"></input>
+        <input type="button" class="alarm l1 " value="Alarm" onclick="go()"></input>
+    </div>
+    <div class="digital-space area">
+        <div class="shadow">
+      <div class="container">
+          <div class="time-cont">
+              <h3 class="text-time">TIME</h3>
+              <div class="time-box"><h3  class="time"></h3></div>
+          </div>
+          <div class="bottom">
+          <div class="date-cont">
+            <h3 class="text-date">DATE</h3>
+            <div class="date-box"><h3 class="date"></h3></div>
+          </div>
+          <div class="day-cont">
+            <h3 class="text-day">DAY</h3>
+            <div class="day-box"><h3 class="day"></h3></div>
+          </div>
+        </div>
+        <h2 class="brand">TITAN</h2>
+      </div>
+    </div>
+    </div>
+    <div class="analog-space area onclicked">
+       2
+    </div>
+    <div class="stopwatch-space area onclicked">
+        3
+    </div>
+    <div class="alarm-space area onclicked">
+        4
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
