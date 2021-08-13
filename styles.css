@@ -1,3 +1,5 @@
+*{
+}
 .heading{
     margin:0.5rem;
     text-align: center;
@@ -148,3 +150,4 @@
     margin: auto;
     box-shadow: 9px 4px 19px 2px  rgb(75, 75, 75);
 }
+
