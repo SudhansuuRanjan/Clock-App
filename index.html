@@ -17,34 +17,97 @@
         <input type="button" class="alarm l1 " value="Alarm" onclick="go()"></input>
     </div>
     <div class="digital-space area">
+        <!--First part start-->
         <div class="shadow">
-      <div class="container">
-          <div class="time-cont">
-              <h3 class="text-time">TIME</h3>
-              <div class="time-box"><h3  class="time"></h3></div>
+            <div class="container">
+                <div class="time-cont">
+                    <h3 class="text-time">TIME</h3>
+                    <div class="time-box"><h3  class="time"></h3></div>
+                </div>
+                <div class="bottom">
+                <div class="date-cont">
+                  <h3 class="text-date">DATE</h3>
+                  <div class="date-box"><h3 class="date"></h3></div>
+                </div>
+                <div class="day-cont">
+                  <h3 class="text-day">DAY</h3>
+                  <div class="day-box"><h3 class="day"></h3></div>
+                </div>
+              </div>
+              <h2 class="brand">TITAN</h2>
+            </div>
           </div>
-          <div class="bottom">
-          <div class="date-cont">
-            <h3 class="text-date">DATE</h3>
-            <div class="date-box"><h3 class="date"></h3></div>
-          </div>
-          <div class="day-cont">
-            <h3 class="text-day">DAY</h3>
-            <div class="day-box"><h3 class="day"></h3></div>
-          </div>
-        </div>
-        <h2 class="brand">TITAN</h2>
-      </div>
-    </div>
+
+
+    <!--1st part end-->
     </div>
     <div class="analog-space area onclicked">
-       2
+        <div class="shadow1">
+            <div class="outer">
+                <div class="inner">
+                    <div class="numbers">
+                        <div class="twelve">12</div>
+                        <div class="one"></div>
+                        <div class="two"></div>
+                        <div class="three">3</div>
+                        <div class="four"></div>
+                        <div class="five"></div>
+                        <div class="six">6</div>
+                        <div class="seven"></div>
+                        <div class="eight"></div>
+                        <div class="nine">9</div>
+                        <div class="ten"></div>
+                        <div class="eleven"></div>
+                    </div>
+                    <div class="hands">
+                        <div class="dot"></div>
+                        <div class="hour-hand"></div>
+                        <div class="minute-hand"></div>
+                        <div class="second-hand"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <div class="stopwatch-space area onclicked">
-        3
+        <!--second part-->
+        <div class="stop-watch-box">
+            <h3 class="stop-title">Stop Watch</h3>
+           <h1 class="stop-watch">00 : 00 : 00</h1>
+           <div class="buttons">
+               <div><button onclick="startTimer()" class="start butt">Start</button></div>
+               <div><button onclick="stopTimer()" class="stop butt">Stop</button></div>
+               <div><button onclick="resetTimer()" class="reset butt">Reset</button></div>
+           </div>
+    </div>
+    <div class="timed">
+        <h2 class="intro">Timer For New Year 2022 !!</h2>
+        <form action="">
+        <div class="boxes">
+            <div class="day_box">
+                <h3 class="hourly-text">Days</h3>
+                <input type="number" name="day" id="day_inp" placeholder="00" min="0" disabled>
+            </div>
+        <div class="hour_box">
+            <h3 class="hourly-text">Hours</h3>
+            <input type="number" name="hour" id="hour_inp" placeholder="00" min="0" disabled>
+        </div>
+        <div class="hour_box">
+            <h3 class="hourly-text">Minutes</h3>
+            <input type="number" name="hour" id="min_inp" max="59" min="0" placeholder="00" disabled>
+        </div>
+        <div class="hour_box">
+            <h3 class="hourly-text">Seconds</h3>
+            <input type="number" name="hour" id="sec_inp" max="59" min="0" placeholder="00" disabled>
+        </div>
+      </div>
+
+    </div>
+    <!--3rd part end-->
+
     </div>
     <div class="alarm-space area onclicked">
-        4
+       <p>In development</p> 
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="index.js"></script>
